@@ -3,5 +3,9 @@
 
     <string name="open_drawer">Open navigation drawer</string>
     <string name="close_drawer">Close navigation drawer</string>
+    <string name="month_1">1 month</string>
+    <string name="months_3">3 months</string>
+    <string name="months_6">6 months</string>
+    <string name="year_1">1 year</string>
 
 </resources>

@@ -7,8 +7,8 @@ data class ChartsResponse (val status :String,
                            val unit : String,
                            val period : String,
                            val description : String,
-                           var values : MutableList<Value> = mutableListOf())
+                           var values : MutableList<PriceData> = mutableListOf())
 
-data class Value (@SerializedName("x") val timestamp : Long,
-                  @SerializedName("y") val price: Int)
+data class PriceData (@SerializedName("x") val timestamp : Long,
+                      @SerializedName("y") val price: Double)
 
