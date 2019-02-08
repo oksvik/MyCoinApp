@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout_graph"
+    android:id="@+id/drawer_layout_list"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -13,7 +13,7 @@
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/navigation_view_graph"
+        android:id="@+id/navigation_view_list"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/navigation_header"

@@ -7,5 +7,10 @@
     <string name="months_3">3 months</string>
     <string name="months_6">6 months</string>
     <string name="year_1">1 year</string>
+    <string name="label_graph">Bitcoin market price graph</string>
+    <string name="label_list">Bitcoin market price list</string>
+    <string name="bitcoin_price_title">Bitcoin Price</string>
+    <string name="item_price_text">1 BTC = %1$.2f \u0024</string>
+    <string name="graph_taped_point_text">%1$d\u0024  on  %2$s</string>
 
 </resources>

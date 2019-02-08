@@ -10,3 +10,4 @@ const val SAVED_PERIOD_KEY = "savedTimeSpan"
 const val BASE_URL = "https://api.blockchain.info/"
 
 const val NUMBER_OF_MILLISECONDS = 1000
+const val SECONDS_PRO_DAY = 86400
