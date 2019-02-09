@@ -72,6 +72,7 @@ class GraphActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setupNavigationDrawer() {
         val navigationView: NavigationView = findViewById(R.id.navigation_view_graph)
+        navigationView.menu.getItem(0).isChecked = true
         navigationView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.nav_list -> {

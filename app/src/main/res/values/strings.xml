@@ -12,5 +12,8 @@
     <string name="bitcoin_price_title">Bitcoin Price</string>
     <string name="item_price_text">1 BTC = %1$.2f \u0024</string>
     <string name="graph_taped_point_text">%1$d\u0024  on  %2$s</string>
+    <string name="bitcoin_image">Bitcoin image</string>
+    <string name="menu_graph">Graph</string>
+    <string name="menu_list">List</string>
 
 </resources>

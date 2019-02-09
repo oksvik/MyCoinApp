@@ -7,11 +7,11 @@ import com.dudar.mycoinapp.network.BlockchainApi
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import javax.inject.Inject
 
-class PriceRepository {
+class PriceRepository @Inject constructor(val apiService:BlockchainApi){
     private val TAG = "PriceRepository"
     private lateinit var disposable: Disposable
-    private val apiService  = BlockchainApi.create()
 
     fun getData(timespan:String) : MutableLiveData<List<PriceData>>{
         val marketPriceLiveData = MutableLiveData<List<PriceData>>()
@@ -25,5 +25,7 @@ class PriceRepository {
             )
         return marketPriceLiveData
     }
+
+    fun dispose(){disposable.dispose()}
 
 }
